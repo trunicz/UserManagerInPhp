@@ -1,0 +1,15 @@
+{
+    "name": "trnx/usermanager",
+    "autoload": {
+        "psr-4": {
+            "Trnx\\Usermanager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "trunicz",
+            "email": "romelelicg_19@alu.uabcs.mx"
+        }
+    ],
+    "require": {}
+}

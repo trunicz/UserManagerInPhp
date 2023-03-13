@@ -1,0 +1,15 @@
+-- Active: 1678702121407@@localhost@3306@userapp
+DROP DATABASE IF EXISTS userapp;
+CREATE DATABASE userapp;
+
+USE userapp;
+
+CREATE TABLE users(
+  id INT NOT NULL AUTO_INCREMENT,
+  uuid VARCHAR(255) NOT NULL UNIQUE,
+  username VARCHAR(255) NOT NULL,
+  usermail VARCHAR(255) NOT NULL,
+  updated DATE NOT NULL,
+  created DATE NOT NULL,
+  PRIMARY KEY(id)
+)
